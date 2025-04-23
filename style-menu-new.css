@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Poppins:wght@100;300&family=Rubik+Puddles&family=Sorts+Mill+Goudy&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    top: 0;
+    height: 82px; 
+    background-color: #cef5ff;
+    width: 100%;
+    position: sticky;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.25);
+}   
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 150px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo h1 {
+    color: #006dd3;
+    font-size: 33px;
+    height: 6vh;
+    margin: auto 0;
+    margin-bottom: 0;
+}
+
+.logo img {
+    margin: auto 0;
+}
+
+nav {
+    /* margin: auto 0; */
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 68px;
+    display: flex;
+    margin: auto 0;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+}
+
+ul li{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul li a {
+    color: #4b4b4b;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin-left: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: #00ffaa;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease-in-out;
+}
+
+.home-content {
+    background-image: url(assets/300380950_392483546365058_5030802600824934167_n\ 2.png);
+    background-size: cover; 
+    width: 100%;
+    height: 779px;
+    margin: 0;
+}
+
+.home-content h1 {
+    width: 500px;
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 0;
+    color: white;
+    padding-top: 180px;
+    margin-bottom: 0;
+}
+
+.courier {
+    width: 55%;
+    padding-top: 20px;
+    padding-right: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.courier h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #B7E3FC;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.courier h3 {
+    color: #093853;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.character-one {
+    width: 380px;
+    height: 430px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.character-two {
+    width: 220px;
+    height: 300px;
+    margin-top: 160px;
+}
+
+
+.button-order {
+    text-align: center;
+    padding-top: 30px;
+}
+.button-order a {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 22px;
+    background-color: #fffb01;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.25);
+}
+
+.button-order :hover {
+    background-color: rgb(0, 245, 0);
+}
+
+.second-content {
+    text-align: center;
+}
+
+.second-content h1 {
+    font-size: 32px;
+    color: #01A0F8;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+hr {
+    width: 30%;
+    margin-top: 0;
+}
+
+.part-1, .part-2 {
+    text-align: center;
+}
+
+.up-content {
+    flex-grow: 33.3%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.up-content h1 {
+    color: #01A0F8;
+}
+
+
+#baju {
+    margin-top: 10px;
+}
+
+.we-laundry {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: rgba(200, 191, 191, 0.65);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jasa-cuci {
+    width: 100%;
+}
+
+/* section 3 */
+
+.layanan-kiloan, .layanan-express, .jasa-setrika{
+    text-align: center;
+    margin: 0;
+}
+
+.layanan-kiloan hr , .layanan-express hr, .jasa-setrika hr{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.layanan-kiloan h1, .layanan-express h1, .jasa-setrika h1 {
+    font-family: 'Irish Grover';
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 0;
+    color: #01A0F8;
+}
+
+.layanan-kiloan h6, .layanan-express h6 , .jasa-setrika h6{
+    margin: 5px auto;
+    font-weight: bold;
+    font-size: 18px;
+    color: #01A0F8;
+}
+
+.content-kiloan, .express, .setrika {
+    margin-top: 30px;
+}
+
+.down-content h4 , .express-service h4, iron-service h4{
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.down-content, .iron-service {
+    flex-grow: 50%;
+    width: 100%;
+    height: 480px;
+    box-shadow: 6px 6px 7px #A7D8F3;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.express-service {
+    flex-grow: 50%;
+    width: 100%;
+    height: 520px;
+    box-shadow: 6px 6px 7px #A7D8F3;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.down-content a, .express-service a, .iron-service a {
+    text-decoration: none;
+    padding: 8px 18px;
+    background-color: #01A0F8;
+    color: white;
+}
+
+
+.down-content a:hover, .express-service a:hover, .iron-service a:hover{
+    background-color: green;
+    transition: all 0.3s ease-in-out;
+}
+
+.down-content h1, .express-service h1, .iron-service h1{
+    font-weight: bolder;
+    background-color: #7fd2ff;
+}
+
+
+
+
+/* section 4 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.copyright{
+    text-align: center;
+    background-color: grey;
+    padding: 2px;
+    color: white;
+}
+
+.content{
+    height: 800px;
+    overflow: hidden;
+    padding: 0 30px;
+    background-image: url(assets/uns);
+}
+
+.menu a:hover{
+    background-color: lightskyblue;
+    padding: 10px;
+    transition:all 0.5s ease-in-out;
+}
